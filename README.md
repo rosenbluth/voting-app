@@ -1,3 +1,7 @@
+This is a voting app. This is a simple voting app bulit with react. I had a lot of fun making this.
+
+
+
 ### Running the app
 
 1. Ensure you have `npm` installed.
