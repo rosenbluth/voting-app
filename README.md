@@ -1,4 +1,4 @@
-This is a voting app. This is a simple voting app bulit with react. I had a lot of fun making this. I working through a book and I'm learning a lot.
+This is a voting app. This is a simple voting app bulit with react. I had a lot of fun making this. I'm working through a book and I'm learning a lot.
 
 
 
