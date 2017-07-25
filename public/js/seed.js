@@ -1,44 +1,44 @@
 window.Seed = (function () {
   function generateVoteCount() {
-    return Math.floor((Math.random() * 50) + 15);
+    return Math.floor((Math.random() * 50) + 175);
   }
 
   const products = [
     {
       id: 1,
-      title: 'Yellow Pail',
-      description: 'On-demand sand castle construction expertise.',
-      url: '#',
+      title: 'The Rolling Stones 1962-present',
+      description: 'Gimme Shelter',
+      url: 'https://en.wikipedia.org/wiki/The_Rolling_Stones',
       votes: generateVoteCount(),
       submitterAvatarUrl: 'images/avatars/daniel.jpg',
-      productImageUrl: 'images/products/image-aqua.png',
+      productImageUrl: 'images/products/RollingStones.jpg',
     },
     {
       id: 2,
-      title: 'Supermajority: The Fantasy Congress League',
-      description: 'Earn points when your favorite politicians pass legislation.',
-      url: '#',
+      title: 'AC/DC 1973-present',
+      description: 'Back in black!',
+      url: 'https://en.wikipedia.org/wiki/AC/DC',
       votes: generateVoteCount(),
       submitterAvatarUrl: 'images/avatars/kristy.png',
-      productImageUrl: 'images/products/image-rose.png',
+      productImageUrl: 'images/products/ACDC.jpg',
     },
     {
       id: 3,
-      title: 'Tinfoild: Tailored tinfoil hats',
-      description: 'We already have your measurements and shipping address.',
-      url: '#',
+      title: 'Led Zeppelin 1968-1980',
+      description: 'Dancing Days',
+      url: 'https://en.wikipedia.org/wiki/Led_Zeppelin',
       votes: generateVoteCount(),
       submitterAvatarUrl: 'images/avatars/veronika.jpg',
-      productImageUrl: 'images/products/image-steel.png',
+      productImageUrl: 'images/products/LedZeppelin.jpg',
     },
     {
       id: 4,
-      title: 'Haught or Naught',
-      description: 'High-minded or absent-minded? You decide.',
-      url: '#',
+      title: 'Beatles',
+      description: 'We all live in a yellow submarine',
+      url: 'https://en.wikipedia.org/wiki/The_Beatles',
       votes: generateVoteCount(),
       submitterAvatarUrl: 'images/avatars/molly.png',
-      productImageUrl: 'images/products/image-yellow.png',
+      productImageUrl: 'images/products/Beatles.jpg',
     },
   ];
 
